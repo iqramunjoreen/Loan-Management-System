@@ -8,5 +8,7 @@ applicant qualifies, the loan will be approved in order of priority and dependin
 try it out:
 
 g++ -c loan_application.cpp
+
 g++ -o loan_approval.o loan_approval.cpp loan_application.o
+
 ./loan_approval.o commands.txt
